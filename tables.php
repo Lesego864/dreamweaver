@@ -74,7 +74,7 @@ $data = mysqli_fetch_array($record);
                            <!--  <div class="sb-sidenav-menu-heading">Addons</div> -->
                             <a class="nav-link" href="charts.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Crops
+                               Biometric Id
                             </a>
                             <a class="nav-link" href="tables.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>

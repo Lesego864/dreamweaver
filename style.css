@@ -1,131 +1,95 @@
 body {
-	background-color: #eceaea;
-	font-size: 19px;
+    background-color: #FF8700;
 }
 
-table{
-	width: 50%;
-	margin: 30px auto;
-	border-collapse: collapse;
-	text-align: center;
-}
-tr{
-	border-bottom: 1px solid #cbcbcb;
-}
-th, td {
-	border: none;
-	height: 30px;
-	padding: 1px;
-}
-tr:hover {
-	background: lightgrey;
-}
-form {
-    width: 45%;
-    margin: 20px auto;
-    text-align: left;
-    padding: 10px; 
-    border: 1px solid #bbbbbb; 
-    border-radius: 5px;
-}
-.input-group {
-    margin: 10px 0px 10px 0px;
-}
-.input-group input {
-    height: 30px;
-    width: 93%;
-    padding: 5px 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid gray;
-}
-.btn {
-    padding: 10px;
-    font-size: 15px;
-    color: white;
-    background: #5F9EA0;
-    border: none;
-    border-radius: 5px;
-}
-.edit_btn {
-    text-decoration: none;
-    padding: 2px 5px;
-    background: #009688;
-    color: white;
-    border-radius: 20px;
+.pizza-info {
+    background-color: #0AFF99;
+
+    border-radius: 1em;
 }
 
-.del_btn {
-    text-decoration: none;
-    padding: 2px 5px;
-    color: white;
-    border-radius: 20px;
-    background: #a10a08;
+.contacts {
+
+    background-color: #DEFF0A;
+    border-radius: 1em;
+    padding: 1em;
+    border: 2px solid #BE0AFF
 }
-.message {
-    margin: 30px auto; 
-    padding: 10px; 
-    border-radius: 5px; 
-    color: black; 
-    background: lightgreen; 
-    border: 1px solid #3c763d;
-    width: 50%;
+
+.circleButton {
+    background-color: #BE0AFF;
+    
+    color: white;
+    border-radius: 50%;
     text-align: center;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+    text-decoration: none;
 }
-.text-danger
-{
-	font-size: 25px;
+.sqButton {
+    background-color: #BE0AFF;
+    border: slategray solid 1px;
     color: white;
+    border-radius: 2px;
+
+
+
+}table {
+    
+   width: 400px;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   
+}.Payments {
+
+    width: 30%;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+    background-color: #a3b18a;
+    outline: none;
+    border: 2px solid #580aff;
+    justify-content: center;
+    text-align:center;
+}
+.buyButton {
+    background-color: #147df5;
+    color: white;
+    border: 2px solid #580aff;
+    width: 50%;
     border-radius: 5px;
-    background: #2E8B57;
+    cursor: pointer;  
+    text-decoration: none;
+}
+.checkoutButton {
+    background-color: #147df5;
+    color: white;
+    border: 2px solid #580aff;
+    width: 30%;
+    height: 60%;
+    border-radius: 5px;
+    cursor: pointer;  
+
+}
+.hidden{
+    display: none;
 }
 
-.addnewentry
-{
-    font-size: 15px;
-    color: black;
-    border-radius: 18px;
-    background: #f44336;
+.payButton{
+    
+    background-color:darkred;
+    color: white;
+    border: 2px solid #580aff;
+    width: 20%;
+    height: 60%;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-.form-inline {  
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-}
-
-.form-inline label {
-  margin: 5px 10px 5px 0;
-}
-
-.form-inline input {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-}
-
-.form-inline button {
-  padding: 10px 20px;
-  background-color: #4caf50;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-}
-
-.form-inline button:hover {
-  background-color: royalblue;
-}
-
-@media (max-width: 800px) {
-  .form-inline input {
-    margin: 10px 0;
-  }
-  
-  .form-inline {
-    flex-direction: column;
-    align-items: stretch;
-  }

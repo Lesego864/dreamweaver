@@ -9,6 +9,7 @@
         <title>Dreamweaver Farm Inc</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
@@ -56,7 +57,7 @@
                            <!--  <div class="sb-sidenav-menu-heading">Addons</div> -->
                             <a class="nav-link" href="charts.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Crops
+                               Biometric Id
                             </a>
                             <a class="nav-link" href="tables.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
@@ -85,40 +86,99 @@
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-primary text-white mb-4">
                                     <div class="card-body">Temperature Level</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">25</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
+                                    <img src="small.png" width="150" style="align-content: center">
+                                    
+                                <td>
+                            <h3 class="item">Temperature:<span class="smallPizzaTotal"> 0.00</span>
+                                </td>
+                                <div></div>
+                                        
+                                <td><button class="smallRemove" on type="button" name="remove">-</button></td>
+
+                                
+                                <td><button class="smallAdd" id="test" on type="button" name="add">+</button></td>
+                                 <td>
+                                    <h3 class="smallQuantity item"></h3>
+                                </td>
+                                
+                        </div>
+                    </div>
+
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-warning text-white mb-4">
-                                    <div class="card-body">Water Requirememnt</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">100 litre/perday</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
+                                    <div class="card-body">Water Requiremement</div>
+                                    <img src="small.png" width="150" style="align-content: center">
+                                    <!-- <h3>R49.00</h3> -->
+                                <!-- <div>
+                                It has thin crust, fresh tomato sauce, mozzarella cheese, and just a few leaves of basil.
+                                </div> -->
+                                <td>
+                            <h3 class="item">Temperature:<span class="smallPizzaTotal"> 0.00</span>
+                                </td>
+                                <div></div>
+                                        
+                                <td><button class="smallRemove" on type="button" name="remove">-</button></td>
+
+                                
+                                <td><button class="smallAdd" id="test" on type="button" name="add">+</button></td>
+                                 <td>
+                                    <h3 class="smallQuantity item"></h3>
+                                </td>
+                                
+                        </div>
+                    </div>
+
+
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-success text-white mb-4">
                                     <div class="card-body">Crops Watered</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">20ha</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
+                                    <img src="small.png" width="150" style="align-content: center">
+                                    <!-- <h3>R49.00</h3> -->
+                                <!-- <div>
+                                It has thin crust, fresh tomato sauce, mozzarella cheese, and just a few leaves of basil.
+                                </div> -->
+                                <td>
+                            <h3 class="item">Temperature:<span class="smallPizzaTotal"> 0.00</span>
+                                </td>
+                                <div></div>
+                                        
+                                <td><button class="smallRemove" on type="button" name="remove">-</button></td>
+
+                                
+                                <td><button class="smallAdd" id="test" on type="button" name="add">+</button></td>
+                                 <td>
+                                    <h3 class="smallQuantity item"></h3>
+                                </td>
+                                
+                        </div>
+                    </div>
+
+
+
+
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-danger text-white mb-4">
                                     <div class="card-body">Pesticide Level</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">High</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
+                                    <img src="small.png" width="150" style="align-content: center">
+                                    <!-- <h3>R49.00</h3> -->
+                                <!-- <div>
+                                It has thin crust, fresh tomato sauce, mozzarella cheese, and just a few leaves of basil.
+                                </div> -->
+                                <td>
+                            <h3 class="item">Temperature:<span class="smallPizzaTotal"> 0.00</span>
+                                </td>
+                                <div></div>
+                                        
+                                <td><button class="smallRemove" on type="button" name="remove">-</button></td>
+
+                                
+                                <td><button class="smallAdd" id="test" on type="button" name="add">+</button></td>
+                                 <td>
+                                    <h3 class="smallQuantity item"></h3>
+                                </td>
+                                
                         </div>
+                    </div>
                         <!-- <div class="row">
                             <div class="col-xl-6">
                                 <div class="card mb-4">
@@ -151,6 +211,7 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+         <script src="shop.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
         <script src="js/datatables-simple-demo.js"></script>
     </body>
